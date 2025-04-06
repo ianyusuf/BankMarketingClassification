@@ -1,0 +1,3 @@
+URL Dataset: https://archive.ics.uci.edu/dataset/222/bank+marketing
+
+URL Deployment: https://huggingface.co/spaces/ianyusuf/BankMarketingClassification
