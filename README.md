@@ -10,19 +10,10 @@ This project aims to analyze marketing campaign data from a bank to predict whet
 The bank has been running marketing campaigns to promote term deposit subscriptions. However, the success rate is relatively low. By utilizing machine learning, we aim to identify which customers are more likely to make a deposit and adjust marketing strategies accordingly. This approach helps reduce campaign costs and increase overall effectiveness.
 
 ## 🌟 SMART Analysis
-**Specific:** Improve the success rate of term deposit subscriptions by targeting the right customers using predictive modeling.
+**Objective**: This milestone focuses on developing a predictive model to help banks target customers more effectively using Logistic Regression, as well as optimizing the model through hyperparameter tuning. The results will be classified through data modeling and the goal is to predict whether a client will subscribe to a term deposit (yes/no).
+The evaluation metric that will be used is the recall value to minimize false negatives (customers who are interested in subscribing but are classified as not interested) so that good results can be obtained. In addition, the Cross Validation value will also be used to see how the model works in distinguishing the results of the Logistic Regression from other models.
 
-**Measurable:** Increase the deposit subscription rate from the current baseline to a higher percentage determined through model evaluation.
-
-**Achievable:**
-- Analyze key customer attributes such as age, job, balance, and contact history to find patterns.
-- Use classification models to predict the likelihood of a customer subscribing.
-- Focus campaigns on high-potential customer segments.
-
-**Relevant:**
-Identifying high-conversion customers helps reduce campaign inefficiencies and improve ROI. Better customer targeting will also improve customer experience and response rates.
-
-**Time-bound:** Implement and evaluate the model's impact within a 3-month campaign cycle.
+**Problem**: Develop a Logistic Regression model to predict whether a customer will subscribe to a term deposit or not and optimizing it through hyperparameter tuning. The model will be evaluated using Cross Validation Score. This project will be completed within four weeks to help banks improve bank customer targeting and campaign efficiency.
 
 ## ✅ Problem Breakdown
 - What customer features influence the likelihood of subscribing to a term deposit?
