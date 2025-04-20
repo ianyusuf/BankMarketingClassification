@@ -7,9 +7,6 @@ This project aims to analyze marketing campaign data from a bank to predict whet
 # 📚 Business Understanding
 
 ## 📌 Background
-The bank has been running marketing campaigns to promote term deposit subscriptions. However, the success rate is relatively low. By utilizing machine learning, we aim to identify which customers are more likely to make a deposit and adjust marketing strategies accordingly. This approach helps reduce campaign costs and increase overall effectiveness.
-
-## 🌟 SMART Analysis
 **Objective**: This milestone focuses on developing a predictive model to help banks target customers more effectively using Logistic Regression, as well as optimizing the model through hyperparameter tuning. The results will be classified through data modeling and the goal is to predict whether a client will subscribe to a term deposit (yes/no).
 The evaluation metric that will be used is the recall value to minimize false negatives (customers who are interested in subscribing but are classified as not interested) so that good results can be obtained. In addition, the Cross Validation value will also be used to see how the model works in distinguishing the results of the Logistic Regression from other models.
 
