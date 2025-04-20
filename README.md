@@ -19,7 +19,7 @@ The evaluation metric that will be used is the recall value to minimize false ne
 - Which classification models yield the best performance for this task?
 
 ## 👥 Target Users
-Bank Marketing Team and Decision-Makers
+Bank Marketing Department and Stakeholder
 
 ## 🧰 Tools & Technologies Used
 Python: Used for data preprocessing, modeling, and evaluation. Key libraries include:
