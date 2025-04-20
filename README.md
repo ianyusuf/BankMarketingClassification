@@ -1,78 +1,74 @@
-# Bank Marketing Classification - Hadyan Yusuf Imran
+# 🏦 Bank Marketing Classification
+This project aims to analyze marketing campaign data from a bank to predict whether a customer will subscribe to a term deposit. The classification model helps identify high-potential customers and optimize campaign strategies.
 
-This repository contains a classification project using the Bank Marketing dataset from the UCI Machine Learning Repository. The objective is to predict whether a customer will subscribe to a term deposit product based on their attributes and campaign data.
+## 📂 Dataset Source
+[Bank Marketing Dataset - UCI Repository](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing)
 
-## Dataset
+# 📚 Business Understanding
 
-The dataset used is publicly available and contains 11 attributes:
+## 📌 Background
+The bank has been running marketing campaigns to promote term deposit subscriptions. However, the success rate is relatively low. By utilizing machine learning, we aim to identify which customers are more likely to make a deposit and adjust marketing strategies accordingly. This approach helps reduce campaign costs and increase overall effectiveness.
 
-- **age**: age of the customer
-- **job**: type of job
-- **balance**: average yearly balance in euros
-- **housing**: whether the customer has a housing loan
-- **loan**: whether the customer has a personal loan
-- **contact**: contact communication type
-- **month**: last contact month of year
-- **campaign**: number of contacts performed during this campaign
-- **pdays**: number of days passed since the client was last contacted (if -1, client was not previously contacted)
-- **poutcome**: outcome of the previous marketing campaign
-- **deposit**: target variable, whether the client subscribed to a term deposit
+## 🌟 SMART Analysis
+**Specific:** Improve the success rate of term deposit subscriptions by targeting the right customers using predictive modeling.
 
-## Objective
+**Measurable:** Increase the deposit subscription rate from the current baseline to a higher percentage determined through model evaluation.
 
-The project aims to build a classification model that can help marketing teams target potential customers more effectively by predicting the likelihood of a customer subscribing to a deposit product.
+**Achievable:**
+- Analyze key customer attributes such as age, job, balance, and contact history to find patterns.
+- Use classification models to predict the likelihood of a customer subscribing.
+- Focus campaigns on high-potential customer segments.
 
-## Steps
+**Relevant:**
+Identifying high-conversion customers helps reduce campaign inefficiencies and improve ROI. Better customer targeting will also improve customer experience and response rates.
 
-1. **Data Cleaning**  
-   Handle missing values, drop or replace unknowns, convert categorical variables, etc.
+**Time-bound:** Implement and evaluate the model's impact within a 3-month campaign cycle.
 
-2. **Exploratory Data Analysis (EDA)**  
-   Analyze distribution of key features, correlation between variables, and class imbalance.
+## ✅ Problem Breakdown
+- What customer features influence the likelihood of subscribing to a term deposit?
+- Which customer segments have the highest conversion rates?
+- How do marketing channels and contact timing affect deposit subscription?
+- Which classification models yield the best performance for this task?
 
-3. **Feature Engineering**  
-   - One-hot encoding for categorical variables
-   - Binning continuous features (if applicable)
+## 👥 Target Users
+Bank Marketing Team and Decision-Makers
 
-4. **Model Building**  
-   Models used include:
-   - Logistic Regression
-   - Decision Tree
-   - Random Forest
-   - Support Vector Machine
-   - K-Nearest Neighbors
-   - XGBoost
-   - AdaBoost
-   - CatBoost
-   - Naive Bayes
-   - Gradient Boosting
+## 🧰 Tools & Technologies Used
+Python: Used for data preprocessing, modeling, and evaluation. Key libraries include:
+  - pandas for data manipulation
+  - matplotlib and seaborn for visualization
+  - scikit-learn for machine learning models
+  - xgboost, catboost, and lightgbm for advanced classification algorithms
 
-5. **Model Evaluation**  
-   Metrics evaluated:
-   - Accuracy
-   - Recall
-   - Precision
-   - F1 Score
-   - ROC AUC
-   - PR AUC
+## 📊 Model Comparison
+Various models were tested including:
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- KNN
+- Support Vector Machine
+- Naive Bayes
+- XGBoost, AdaBoost, GradientBoosting, CatBoost
 
-6. **Model Inference**  
-   Final model saved and inference shown in separate notebook.
+Each model was evaluated based on:
+- Accuracy
+- Recall
+- Precision
+- F1 Score
+- ROC AUC
+- PR AUC
 
-## Results
+## 🚀 Inference
+📁 [Bank-Marketing-Classification-Inference.ipynb](https://github.com/ianyusuf/BankMarketingClassification/blob/main/Bank-Marketing-Classification-Inference.ipynb)
 
-The best-performing models are selected based on F1 Score and ROC AUC. Insights from feature importance are also used to support business decision-making.
+Model inference is available in a separate notebook to show how the final model can be used in production for predicting new customer data.
 
-## Deployment
+## 🧠 Insights
+- Customers with higher balances and those contacted via cellular are more likely to subscribe.
+- The outcome of previous campaigns significantly affects future success.
+- Some job categories have much higher conversion rates than others.
 
-The model can be further deployed using:
-- Flask or FastAPI for API endpoints
-- Streamlit for interactive web app
-- Integration with CRM tools for targeting
-
-## Author
-
+## 📌 Author
 **Hadyan Yusuf Imran**  
 📧 [LinkedIn](https://www.linkedin.com/in/ianyusuf/)  
-📌 Final Project - Data Science Bootcamp  
-
+🎓 Final Project - Data Science Bootcamp
