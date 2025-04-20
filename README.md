@@ -39,22 +39,11 @@ Various models were tested including:
 - XGBoost, AdaBoost, GradientBoosting, CatBoost
 
 Each model was evaluated based on:
-- Accuracy
+- Cross Validation Scores
 - Recall
-- Precision
-- F1 Score
-- ROC AUC
-- PR AUC
 
 ## 🚀 Inference
 📁 [Bank-Marketing-Classification-Inference.ipynb](https://github.com/ianyusuf/BankMarketingClassification/blob/main/Bank-Marketing-Classification-Inference.ipynb)
-
-Model inference is available in a separate notebook to show how the final model can be used in production for predicting new customer data.
-
-## 🧠 Insights
-- Customers with higher balances and those contacted via cellular are more likely to subscribe.
-- The outcome of previous campaigns significantly affects future success.
-- Some job categories have much higher conversion rates than others.
 
 ## 📌 Author
 **Hadyan Yusuf Imran**  
