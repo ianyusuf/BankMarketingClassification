@@ -43,7 +43,7 @@ Each model was evaluated based on:
 - Recall
 
 ## 🚀 HuggingFace
-📁 [Bank-Marketing-Classification-HuggingFace]((https://huggingface.co/spaces/ianyusuf/BankMarketingClassification))
+📁 [Bank-Marketing-Classification-HuggingFace](https://huggingface.co/spaces/ianyusuf/BankMarketingClassification)
 
 ## 📌 Author
 **Hadyan Yusuf Imran**  
