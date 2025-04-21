@@ -42,8 +42,8 @@ Each model was evaluated based on:
 - Cross Validation Scores
 - Recall
 
-## 🚀 Inference
-📁 [Bank-Marketing-Classification-Inference.ipynb](https://github.com/ianyusuf/BankMarketingClassification/blob/main/Bank-Marketing-Classification-Inference.ipynb)
+## 🚀 HuggingFace
+📁 [Bank-Marketing-Classification-HuggingFace]([https://github.com/ianyusuf/BankMarketingClassification/blob/main/Bank-Marketing-Classification-Inference.ipynb](https://huggingface.co/spaces/ianyusuf/BankMarketingClassification))
 
 ## 📌 Author
 **Hadyan Yusuf Imran**  
