@@ -35,8 +35,7 @@ Various models were tested including:
 - Random Forest
 - KNN
 - Support Vector Machine
-- Naive Bayes
-- XGBoost, AdaBoost, GradientBoosting, CatBoost
+- GradientBoosting
 
 Each model was evaluated based on:
 - Cross Validation Scores
