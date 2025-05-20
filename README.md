@@ -26,7 +26,6 @@ Python: Used for data preprocessing, modeling, and evaluation. Key libraries inc
   - pandas for data manipulation
   - matplotlib and seaborn for visualization
   - scikit-learn for machine learning models
-  - xgboost, catboost, and lightgbm for advanced classification algorithms
 
 ## 📊 Model Comparison
 Various models were tested including:
